@@ -14,6 +14,8 @@
         body {
             font-family: 'Georgia', serif;
             color: #333;
+            background: url('images/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
         }
 
         header {
@@ -27,6 +29,12 @@
         .logo {
             width: 40px;
             height: 40px;
+            background-color: #d4c4b0;
+            padding: 5px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .logo img {
@@ -41,10 +49,7 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
-                        url('images/bg.jpg');
-            background-size: cover;
-            background-position: center bottom;
+            background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
             height: 400px;
             display: flex;
             align-items: center;
@@ -82,10 +87,7 @@
         }
 
         .footer-image {
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                        url('images/bg.jpg');
-            background-size: cover;
-            background-position: center;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
             height: 300px;
             position: relative;
             display: flex;
@@ -196,4 +198,4 @@
     </footer>
 </body>
 </html>
-</html>
+
