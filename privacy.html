@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,6 +46,10 @@
         .contact-info {
             color: #aaa;
             font-size: 14px;
+        }
+        
+        .contact-info .phone-icon {
+            color: #d4c4b0;
         }
 
         .container {
@@ -116,9 +121,30 @@
         footer {
             background-color: #2d2d2d;
             color: #aaa;
-            text-align: center;
             padding: 30px 20px;
             margin-top: 60px;
+            position: relative;
+        }
+
+        footer .footer-business {
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #d4c4b0;
+            text-align: left;
+        }
+
+        footer .footer-contact {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        footer .footer-links {
+            text-align: center;
         }
 
         footer p {
@@ -141,7 +167,7 @@
         <div class="logo">
             <img src="images/tb_1.png" alt="The Bookkeeper Logo">
         </div>
-        <div class="contact-info">📞 801-695-9920 Call or Text</div>
+        <div class="contact-info"><span class="phone-icon">☎</span> 801-695-9920 Call or Text</div>
     </header>
 
     <div class="container">
@@ -252,8 +278,9 @@
     </div>
 
     <footer>
-        <p>The Bookkeeper | LLC</p>
-        <div>
+        <p class="footer-business">The Bookkeeper | LLC</p>
+        <p class="footer-contact">Tel: 801-695-9920</p>
+        <div class="footer-links">
             <a href="index.html">Home</a>
             <a href="privacy.html">Privacy Policy</a>
         </div>
